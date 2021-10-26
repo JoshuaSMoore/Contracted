@@ -33,5 +33,3 @@ CREATE TABLE IF NOT EXISTS jobs(
   FOREIGN KEY(companyId) REFERENCES companies(id) ON DELETE CASCADE
 )default charset utf8 COMMENT '';
 
-INSERT INTO jobs(contractorId, companyId, creatorId)
-VALUES (1, 1, 3);
